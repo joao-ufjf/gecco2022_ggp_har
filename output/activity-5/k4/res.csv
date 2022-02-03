@@ -1,0 +1,4 @@
+seed;training;test;validation;model
+3;0.477679;0.60119;0.151786;mental physical IT_PSD_mean IT_LF_mad >= if-else emotional neutral 0 IT_HF_LF <= if-else -0.5 HAND_EDA_Functionals_power_Filt2median - -0.25 < if-else 
+2;0.352431;0.383929;0.151786;neutral emotional IT_PSD_baseline IT_HF_LF > if-else mental physical ECG_hrv_geomean(abs) 0.25 < if-else 1 HAND_EDA_processed_baseline ECG_hrv_trimmean25 + > if-else 
+1;0.297619;0.27381;0.169643;mental neutral IT_HF_TF IT_Original_kurtosis <= if-else physical emotional ECG_hrv_mean 0.25 >= if-else -0.75 ECG_hrv_geomean(abs) >= IT_HF_LF IT_VLF_baseline <= or if-else 

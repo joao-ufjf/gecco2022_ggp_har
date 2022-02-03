@@ -1,0 +1,4 @@
+seed;training;test;validation;model
+2;0.373512;0.363095;0.25;physical emotional ARM_EDA_processed_prctile75 ECG_hrv_mean < if-else neutral IT_BRV_skewness 1 < IT_HF_LF IT_PSD_baseline >= and if-else 
+1;0.365823;0.309524;0.339286;neutral mental IT_MF_HF HAND_EDA_processed_harmmean <= if-else physical neutral IT_VLF_baseline HAND_EDA_processed_max <= if-else IT_MF_baseline 1 * -0.5 ECG_hrv_mean + >= if-else 
+3;0.352431;0.363095;0.258929;neutral emotional physical IT_VLF_prctile75 ECG_hrv_prctile75 >= if-else -0.25 IT_VLF_baseline - IT_BRV_std <= if-else 

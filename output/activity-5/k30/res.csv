@@ -1,0 +1,4 @@
+seed;training;test;validation;model
+1;0.369296;0.315476;0.321429;physical emotional ECG_hrv_prctile75 IT_MF_trimmean25 >= if-else neutral neutral ARM_EDA_Filt2_prctile25 ECG_RSAindex <= if-else ARM_EDA_processed_baseline IT_LF_MF_HF + 0 >= if-else 
+3;0.304067;0.285714;0.196429;neutral mental IT_LF_MF_HF ARM_EDA_Filt1_kurtosis < if-else emotional physical IT_MF_median ECG_hrv_prctile75 > if-else IT_HF_LF IT_PSD_baseline < if-else 
+2;0.362103;0.449405;0.25;neutral emotional IT_LF_HF IT_BRV_min > if-else physical mental ECG_hrv_prctile75 0 >= if-else 0 IT_HF_LF >= 0.25 ECG_hrv_max >= or if-else 

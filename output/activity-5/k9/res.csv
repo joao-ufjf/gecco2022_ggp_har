@@ -1,0 +1,4 @@
+seed;training;test;validation;model
+1;0.285466;0.419643;0.294643;mental physical ECG_hrv_median 0 <= if-else neutral emotional IT_p_Total_baseline IT_HF_LF >= if-else ECG_hrv_median IT_HF_TF >= if-else 
+3;0.420387;0.446429;0.25;physical emotional 0 IT_HF_kurtosis <= if-else neutral emotional 0 IT_BRV_baseline > if-else ECG_hrv_prctile75 IT_VLF_baseline >= IT_BR_mean IT_HF_baseline > and if-else 
+2;0.279266;0.372024;0.330357;mental physical ECG_hrv_geomean(abs) IT_CCV_HF < if-else neutral emotional IT_HF_LF IT_PSD_baseline <= if-else -0.5 ECG_hrv_trimmean25 <= IT_LF_HF -0.25 <= and if-else 

@@ -1,0 +1,4 @@
+seed;training;test;validation;model
+3;0.460813;0.348214;0.294643;mental neutral HAND_EDA_Functionals_power_Originalskewness IT_Original_min <= if-else emotional physical ECG_p_LF_mean ECG_hrv_prctile75 >= if-else ARM_EDA_Filt2_harmmean IT_p_Total_baseline <= if-else 
+1;0.345982;0.261905;0.3125;neutral emotional IT_HF_LF IT_VLF_baseline <= if-else physical mental IT_HF_baseline ECG_amplitude_RR_mad <= if-else ECG_hrv_mean ECG_RR_window_harmmean <= if-else 
+2;0.49628;0.321429;0.401786;neutral physical IT_BRV_max IT_PSD_harmmean <= if-else emotional neutral IT_MF_HF IT_BRV_kurtosis > if-else ECG_HR_min_div_trimmean25 IT_BR_mean + -0.75 HAND_EDA_Original_median * > if-else 

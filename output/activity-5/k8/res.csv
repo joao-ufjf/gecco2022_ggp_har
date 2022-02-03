@@ -1,0 +1,4 @@
+seed;training;test;validation;model
+2;0.387897;0.479167;0.303571;mental physical IT_p_Total_baseline HAND_EDA_Functionals_power_Filt2std > if-else neutral emotional HAND_EDA_Functionals_power_Filt2min IT_BRV_min > if-else ECG_hrv_prctile75 IT_BRV_std >= if-else 
+3;0.341766;0.360119;0.375;emotional neutral IT_PSD_prctile25 IT_LF_MF_HF < if-else physical mental IT_LF_prctile25 -0.75 >= if-else ECG_hrv_prctile75 IT_MF_trimmean25 < HAND_EDA_processed_baseline IT_p_Total_geomean(abs) < or if-else 
+1;0.330109;0.383929;0.366071;emotional physical ECG_hrv_prctile75 IT_PSD_harmmean < if-else mental neutral ECG_hrv_prctile25 IT_BRV_mad >= if-else 0.25 IT_PSD_skewness < IT_p_Total_baseline ECG_original_prctile75 <= and if-else 

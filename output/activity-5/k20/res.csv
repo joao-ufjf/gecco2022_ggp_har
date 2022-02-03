@@ -1,0 +1,4 @@
+seed;training;test;validation;model
+3;0.345982;0.315476;0.25;neutral emotional physical IT_PSD_max ECG_hrv_prctile75 > if-else IT_HF_LF 1 / IT_VLF_baseline < if-else 
+1;0.335813;0.291667;0.223214;mental physical IT_PSD_baseline HAND_EDA_processed_geomean(abs) > if-else emotional neutral IT_LF_MF_HF IT_PSD_baseline > if-else IT_LF_max -0.75 / ECG_hrv_median <= if-else 
+2;0.296627;0.267857;0.0803571;physical mental IT_MF_trimmean25 IT_Original_mad <= if-else emotional neutral IT_MF_HF IT_VLF_baseline >= if-else IT_RF_mean 0.25 >= ECG_hrv_median IT_BRV_std >= or if-else 

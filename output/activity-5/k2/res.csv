@@ -1,0 +1,4 @@
+seed;training;test;validation;model
+3;0.324157;0.404762;0.25;mental neutral IT_BRV_baseline IT_BRV_std >= if-else emotional physical IT_MF_median ECG_hrv_prctile75 > if-else IT_MF_HF 0 * IT_VLF_baseline <= if-else 
+1;0.362351;0.455357;0.196429;emotional neutral IT_MF_baseline ECG_p_MF_trimmean25 <= if-else physical mental ECG_amplitude_RR_std IT_HF_baseline >= if-else IT_HF_TF ECG_HR_min_div_median > if-else 
+2;0.40749;0.357143;0.294643;neutral neutral 1 ARM_EDA_Filt1_mad >= if-else physical emotional ECG_hrv_median 0 >= if-else 0.75 ARM_EDA_processed_skewness > IT_MF_baseline HAND_EDA_Functionals_power_Fil12min >= and if-else 

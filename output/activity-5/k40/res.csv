@@ -1,0 +1,4 @@
+seed;training;test;validation;model
+3;0.357143;0.392857;0.258929;neutral neutral HAND_EDA_Functionals_power_Fil12std 1 < if-else mental physical ECG_hrv_mean IT_RF_min < if-else IT_MF_HF -0.5 * IT_RF_mad >= if-else 
+1;0.283234;0.247024;0.1875;physical mental IT_LF_geomean(abs) ECG_hrv_geomean(abs) <= if-else emotional neutral IT_HF_TF IT_BRV_min <= if-else -0.5 ECG_hrv_median <= IT_LF_MF_HF 0.25 >= and if-else 
+2;0.304315;0.369048;0.169643;neutral emotional 0.25 IT_MF_HF >= if-else physical mental ECG_hrv_geomean(abs) IT_p_Total_baseline >= if-else IT_BRV_std ECG_hrv_median >= if-else 

@@ -1,0 +1,4 @@
+seed;training;test;validation;model
+3;0.384921;0.333333;0.285714;emotional physical IT_Original_min ECG_hrv_trimmean25 >= if-else neutral mental ECG_p_LF_prctile75 ARM_EDA_Functionals_power_Originalprctile75 < if-else IT_MF_baseline IT_RF_mean < if-else 
+1;0.310516;0.303571;0.258929;emotional physical ECG_HR_min_div_trimmean25 0 < if-else neutral mental IT_HF_TF IT_BRV_prctile25 > if-else IT_Original_baseline 0 >= 0 IT_PSD_baseline >= and if-else 
+2;0.416915;0.428571;0.267857;physical emotional ECG_RR_window_prctile25 -0.5 < if-else emotional neutral ARM_EDA_Functionals_power_Fil12skewness IT_PSD_baseline >= if-else -0.75 ECG_hrv_max < ECG_RR_window_trimmean25 ECG_PSD_trimmean25 <= and if-else 
