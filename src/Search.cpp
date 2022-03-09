@@ -86,7 +86,7 @@ void Search::evolve(){
 
     int timeStamp = 100;
     int DECounter = 1;
-    int maxEvaluations = 250000;
+    int maxEvaluations = 1000000;
 
     conf->optimizationEvaluations = 100;
     vector<double> fitInTime;

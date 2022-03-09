@@ -178,13 +178,13 @@ void ContinuousAntColonyOptmization::Optimize(Subject* s, Parser* p){
         this->nc_max = 10;
         this->k = 11;
         this->t_base = 5;
-        evaluations = 50000;
+        evaluations = 100000;
     }
     else if (conf->approach == 100 || conf->approach == 200){
         this->nc_max = 4;
         this->k = 6;
         this->t_base = 2;
-        int evaluations = 5000;
+        int evaluations = 10000;
     }
 
     this->accuracy = 0.0001;

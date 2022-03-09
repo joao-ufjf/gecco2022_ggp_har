@@ -6115,3 +6115,471 @@
 1544723546 source:/home/joao/Downloads/har/src/Tree.cpp
 	"Tree.h"
 
+1646774591 source:/home/joao/Projects/UFJF/gecco2022_ggp_har/inc/Ant.cpp
+	"Ant.h"
+
+1646774591 /home/joao/Projects/UFJF/gecco2022_ggp_har/inc/Ant.h
+	<cmath>
+	"vector"
+	<time.h>
+	<ctime>
+	<iostream>
+	<fstream>
+	<algorithm>
+	<random>
+	<iomanip>
+
+1646793301 source:/home/joao/Projects/UFJF/gecco2022_ggp_har/inc/ContinuousAntColonyOptmization.cpp
+	"ContinuousAntColonyOptmization.h"
+
+1646774591 /home/joao/Projects/UFJF/gecco2022_ggp_har/inc/ContinuousAntColonyOptmization.h
+	<cmath>
+	"vector"
+	<time.h>
+	<ctime>
+	<iostream>
+	<fstream>
+	<algorithm>
+	<random>
+	<iomanip>
+	"RK4LSIndividuo.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+	"../inc/Ant.h"
+
+1646774591 /home/joao/Projects/UFJF/gecco2022_ggp_har/inc/RK4LSIndividuo.h
+	"Subject.h"
+
+1646774591 /home/joao/Projects/UFJF/gecco2022_ggp_har/src/Subject.h
+	<iostream>
+	<vector>
+	"Tree.h"
+	<string>
+
+1646774591 /home/joao/Projects/UFJF/gecco2022_ggp_har/src/Tree.h
+	"No.h"
+	"Configures.h"
+	<iostream>
+	<vector>
+	<tuple>
+
+1646774591 /home/joao/Projects/UFJF/gecco2022_ggp_har/src/No.h
+	<iostream>
+	<string>
+	<vector>
+	<sstream>
+
+1646774591 /home/joao/Projects/UFJF/gecco2022_ggp_har/src/Configures.h
+	<stdlib.h>
+	<time.h>
+	<omp.h>
+	<string>
+	"Grammar.h"
+
+1646774591 /home/joao/Projects/UFJF/gecco2022_ggp_har/src/Grammar.h
+	<tuple>
+	<vector>
+	<string>
+	<sstream>
+	<fstream>
+	<algorithm>
+	"Database.h"
+	"No.h"
+	"Configures.h"
+
+1646774591 /home/joao/Projects/UFJF/gecco2022_ggp_har/src/Database.h
+	<iostream>
+	<cstring>
+	<fstream>
+	<vector>
+	<cmath>
+	"Configures.h"
+
+1646774591 /home/joao/Projects/UFJF/gecco2022_ggp_har/src/Parser.h
+	"Configures.h"
+	"Subject.h"
+	<string>
+
+1646774591 /home/joao/Projects/UFJF/gecco2022_ggp_har/src/SimpleIndividuo.h
+	"Subject.h"
+
+1646774591 source:/home/joao/Projects/UFJF/gecco2022_ggp_har/inc/DifferencialEvolution.cpp
+	"DifferencialEvolution.h"
+
+1646774591 /home/joao/Projects/UFJF/gecco2022_ggp_har/inc/DifferencialEvolution.h
+	<cmath>
+	"vector"
+	<time.h>
+	<ctime>
+	<iostream>
+	<fstream>
+	<algorithm>
+	<random>
+	"RK4LSIndividuo.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+
+1646774591 source:/home/joao/Projects/UFJF/gecco2022_ggp_har/inc/LeastSquareIndividuo.cpp
+	"LeastSquareIndividuo.h"
+	"Tree.h"
+
+1646774591 /home/joao/Projects/UFJF/gecco2022_ggp_har/inc/LeastSquareIndividuo.h
+	"Subject.h"
+
+1646774591 source:/home/joao/Projects/UFJF/gecco2022_ggp_har/inc/LeastSquareIndividuoBuilder.cpp
+	"LeastSquareIndividuoBuilder.h"
+
+1646774591 /home/joao/Projects/UFJF/gecco2022_ggp_har/inc/LeastSquareIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"LeastSquareIndividuo.h"
+
+1646774591 /home/joao/Projects/UFJF/gecco2022_ggp_har/src/IndividuoBuilder.h
+	"Subject.h"
+	<string>
+
+1646774591 source:/home/joao/Projects/UFJF/gecco2022_ggp_har/inc/LeastSquareParser.cpp
+	"LeastSquareParser.h"
+
+1646774591 /home/joao/Projects/UFJF/gecco2022_ggp_har/inc/LeastSquareParser.h
+	"Configures.h"
+	"Parser.h"
+	"../inc/QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"SimpleParser.h"
+	"LeastSquareIndividuo.h"
+
+1646774591 /home/joao/Projects/UFJF/gecco2022_ggp_har/inc/QRDecomposition.h
+
+1646774591 /home/joao/Projects/UFJF/gecco2022_ggp_har/src/SimpleParser.h
+	"Configures.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+
+1646774591 /home/joao/Projects/UFJF/gecco2022_ggp_har/include/EvolutionStrategie.h
+	<cmath>
+	"vector"
+	<time.h>
+	<ctime>
+	<iostream>
+	<fstream>
+	<algorithm>
+	<random>
+	"RK4LSIndividuo.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+
+1646774591 source:/home/joao/Projects/UFJF/gecco2022_ggp_har/inc/LSDerivadasParser.cpp
+	"LSDerivadasParser.h"
+
+1646774591 /home/joao/Projects/UFJF/gecco2022_ggp_har/inc/LSDerivadasParser.h
+	"Configures.h"
+	"Parser.h"
+	"QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"LeastSquareIndividuo.h"
+	"SimpleParser.h"
+
+1646774591 source:/home/joao/Projects/UFJF/gecco2022_ggp_har/inc/ParserDerivadas.cpp
+	"ParserDerivadas.h"
+
+1646774591 /home/joao/Projects/UFJF/gecco2022_ggp_har/inc/ParserDerivadas.h
+	"Configures.h"
+	"Parser.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"SimpleParser.h"
+
+1646774591 source:/home/joao/Projects/UFJF/gecco2022_ggp_har/inc/QRDecomposition.cpp
+	"QRDecomposition.h"
+	<cmath>
+	<stdlib.h>
+	<string.h>
+	<iostream>
+	<memory.h>
+
+1646774591 source:/home/joao/Projects/UFJF/gecco2022_ggp_har/inc/RK4AGParser.cpp
+	"RK4AGParser.h"
+
+1646774591 /home/joao/Projects/UFJF/gecco2022_ggp_har/inc/RK4AGParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+
+1646774591 source:/home/joao/Projects/UFJF/gecco2022_ggp_har/inc/RK4LSDerivadasParser.cpp
+	"RK4LSDerivadasParser.h"
+
+1646774591 /home/joao/Projects/UFJF/gecco2022_ggp_har/inc/RK4LSDerivadasParser.h
+	"Configures.h"
+	"Parser.h"
+	"QRDecomposition.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+	"RK4LSIndividuo.h"
+	"SimpleParser.h"
+
+1646774591 source:/home/joao/Projects/UFJF/gecco2022_ggp_har/inc/RK4LSDParser.cpp
+	"RK4LSDParser.h"
+
+1646774591 /home/joao/Projects/UFJF/gecco2022_ggp_har/inc/RK4LSDParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+	"LeastSquareIndividuo.h"
+	"QRDecomposition.h"
+
+1646774591 source:/home/joao/Projects/UFJF/gecco2022_ggp_har/inc/RK4LSIndividuo.cpp
+	"RK4LSIndividuo.h"
+
+1646774591 source:/home/joao/Projects/UFJF/gecco2022_ggp_har/inc/RK4LSIndividuoBuilder.cpp
+	"RK4LSIndividuoBuilder.h"
+
+1646774591 /home/joao/Projects/UFJF/gecco2022_ggp_har/inc/RK4LSIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"RK4LSIndividuo.h"
+
+1646774591 source:/home/joao/Projects/UFJF/gecco2022_ggp_har/inc/RK4sParser.cpp
+	"RK4sParser.h"
+
+1646774591 /home/joao/Projects/UFJF/gecco2022_ggp_har/inc/RK4sParser.h
+	"SimpleParser.h"
+	"RK4LSIndividuo.h"
+	"DifferencialEvolution.h"
+
+1646774591 source:/home/joao/Projects/UFJF/gecco2022_ggp_har/src/AdolfoClassifierParser.cpp
+	"AdolfoClassifierParser.h"
+
+1646774591 /home/joao/Projects/UFJF/gecco2022_ggp_har/src/AdolfoClassifierParser.h
+	"Configures.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+
+1646774591 source:/home/joao/Projects/UFJF/gecco2022_ggp_har/src/Configures.cpp
+	"Configures.h"
+
+1646774591 source:/home/joao/Projects/UFJF/gecco2022_ggp_har/src/Crossover.cpp
+	"Crossover.h"
+
+1646774591 /home/joao/Projects/UFJF/gecco2022_ggp_har/src/Crossover.h
+	"Subject.h"
+
+1646774591 source:/home/joao/Projects/UFJF/gecco2022_ggp_har/src/Database.cpp
+	"Database.h"
+
+1646774591 source:/home/joao/Projects/UFJF/gecco2022_ggp_har/src/EvolutionStrategie.cpp
+	"EvolutionStrategie.h"
+
+1646774591 source:/home/joao/Projects/UFJF/gecco2022_ggp_har/src/Grammar.cpp
+	"Grammar.h"
+	"Configures.h"
+
+1646774591 source:/home/joao/Projects/UFJF/gecco2022_ggp_har/src/IndividuoBuilder.cpp
+	"IndividuoBuilder.h"
+
+1646774591 source:/home/joao/Projects/UFJF/gecco2022_ggp_har/src/main.cpp
+	<iostream>
+	"Database.h"
+	"Grammar.h"
+	"No.h"
+	"Configures.h"
+	"Search.h"
+	"MultiSearch.h"
+	"Configures.h"
+	"SimpleParser.h"
+	"SimpleFunctionalEquationsParser.h"
+	"SimpleClassifierParser.h"
+	"AdolfoClassifierParser.h"
+	"../inc/ParserDerivadas.h"
+	"../inc/LeastSquareParser.h"
+	"../inc/LSDerivadasParser.h"
+	"IndividuoBuilder.h"
+	"LeastSquareIndividuoBuilder.h"
+	"../inc/RK4LSDerivadasParser.h"
+	"../inc/RK4LSIndividuoBuilder.h"
+	"Subject.h"
+	"RK4sParser.h"
+	"../inc/RK4AGParser.h"
+	"RK4LSDParser.h"
+	<sstream>
+	"../inc/ContinuousAntColonyOptmization.h"
+
+1646774591 /home/joao/Projects/UFJF/gecco2022_ggp_har/src/Search.h
+	"Subject.h"
+	"Grammar.h"
+	"Tree.h"
+	"Configures.h"
+	"Parser.h"
+	"SimpleParser.h"
+	<cmath>
+	<algorithm>
+	<exception>
+	"Selection.h"
+	"TournamentSelection.h"
+	"PopulationReplacement.h"
+	"SimpleReplace.h"
+	"IndividuoBuilder.h"
+	"SimpleIndividuoBuilder.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	"Mutation.h"
+	"SimpleMutation.h"
+	"Crossover.h"
+	"SimpleCrossover.h"
+	<omp.h>
+	<cstdio>
+	<iostream>
+
+1646774591 /home/joao/Projects/UFJF/gecco2022_ggp_har/src/Selection.h
+	"Subject.h"
+
+1646774591 /home/joao/Projects/UFJF/gecco2022_ggp_har/src/TournamentSelection.h
+	"Selection.h"
+	"Subject.h"
+
+1646774591 /home/joao/Projects/UFJF/gecco2022_ggp_har/src/PopulationReplacement.h
+	"Subject.h"
+
+1646774591 /home/joao/Projects/UFJF/gecco2022_ggp_har/src/SimpleReplace.h
+	"Subject.h"
+	"PopulationReplacement.h"
+	"Configures.h"
+	<iostream>
+	<algorithm>
+
+1646774591 /home/joao/Projects/UFJF/gecco2022_ggp_har/src/SimpleIndividuoBuilder.h
+	"IndividuoBuilder.h"
+	"SimpleIndividuo.h"
+
+1646774591 /home/joao/Projects/UFJF/gecco2022_ggp_har/src/Mutation.h
+	"Subject.h"
+
+1646774591 /home/joao/Projects/UFJF/gecco2022_ggp_har/src/SimpleMutation.h
+	"Mutation.h"
+
+1646774591 /home/joao/Projects/UFJF/gecco2022_ggp_har/src/SimpleCrossover.h
+	"Crossover.h"
+
+1646774591 /home/joao/Projects/UFJF/gecco2022_ggp_har/include/MultiSearch.h
+	"Subject.h"
+	"Grammar.h"
+	"Tree.h"
+	"Configures.h"
+	"Parser.h"
+	"SimpleParser.h"
+	<cmath>
+	<algorithm>
+	<exception>
+	<fstream>
+	"Selection.h"
+	"TournamentSelection.h"
+	"PopulationReplacement.h"
+	"SimpleReplace.h"
+	"IndividuoBuilder.h"
+	"SimpleIndividuoBuilder.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	"Mutation.h"
+	"SimpleMutation.h"
+	"Crossover.h"
+	"SimpleCrossover.h"
+	<omp.h>
+
+1646774591 /home/joao/Projects/UFJF/gecco2022_ggp_har/src/SimpleFunctionalEquationsParser.h
+	"Configures.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+
+1646774591 /home/joao/Projects/UFJF/gecco2022_ggp_har/src/SimpleClassifierParser.h
+	"Configures.h"
+	"Parser.h"
+	"SimpleIndividuo.h"
+	"DifferencialEvolution.h"
+	"EvolutionStrategie.h"
+	"ContinuousAntColonyOptmization.h"
+	<vector>
+	<stack>
+	<tuple>
+	<cmath>
+
+1646774591 source:/home/joao/Projects/UFJF/gecco2022_ggp_har/src/MultiSearch.cpp
+	"MultiSearch.h"
+	<vector>
+
+1646774591 source:/home/joao/Projects/UFJF/gecco2022_ggp_har/src/Mutation.cpp
+	"Mutation.h"
+
+1646774591 source:/home/joao/Projects/UFJF/gecco2022_ggp_har/src/No.cpp
+	"No.h"
+	<iostream>
+	<string>
+
+1646774591 source:/home/joao/Projects/UFJF/gecco2022_ggp_har/src/Parser.cpp
+
+1646774591 source:/home/joao/Projects/UFJF/gecco2022_ggp_har/src/PopulationReplacement.cpp
+	"PopulationReplacement.h"
+
+1646793301 source:/home/joao/Projects/UFJF/gecco2022_ggp_har/src/Search.cpp
+	"Search.h"
+	<vector>
+
+1646774591 source:/home/joao/Projects/UFJF/gecco2022_ggp_har/src/Selection.cpp
+	"Selection.h"
+
+1646774591 source:/home/joao/Projects/UFJF/gecco2022_ggp_har/src/SimpleClassifierParser.cpp
+	"SimpleClassifierParser.h"
+
+1646774591 source:/home/joao/Projects/UFJF/gecco2022_ggp_har/src/SimpleCrossover.cpp
+	"SimpleCrossover.h"
+
+1646774591 source:/home/joao/Projects/UFJF/gecco2022_ggp_har/src/SimpleFunctionalEquationsParser.cpp
+	"SimpleFunctionalEquationsParser.h"
+
+1646774591 source:/home/joao/Projects/UFJF/gecco2022_ggp_har/src/SimpleIndividuo.cpp
+	"SimpleIndividuo.h"
+
+1646774591 source:/home/joao/Projects/UFJF/gecco2022_ggp_har/src/SimpleIndividuoBuilder.cpp
+	"SimpleIndividuoBuilder.h"
+
+1646774591 source:/home/joao/Projects/UFJF/gecco2022_ggp_har/src/SimpleMutation.cpp
+	"SimpleMutation.h"
+
+1646774591 source:/home/joao/Projects/UFJF/gecco2022_ggp_har/src/SimpleParser.cpp
+	"SimpleParser.h"
+
+1646774591 source:/home/joao/Projects/UFJF/gecco2022_ggp_har/src/SimpleReplace.cpp
+	"SimpleReplace.h"
+
+1646774591 source:/home/joao/Projects/UFJF/gecco2022_ggp_har/src/Subject.cpp
+	"Subject.h"
+
+1646774591 source:/home/joao/Projects/UFJF/gecco2022_ggp_har/src/TournamentSelection.cpp
+	"TournamentSelection.h"
+
+1646774591 source:/home/joao/Projects/UFJF/gecco2022_ggp_har/src/Tree.cpp
+	"Tree.h"
+
