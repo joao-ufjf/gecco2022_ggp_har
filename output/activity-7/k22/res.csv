@@ -1,2 +1,0 @@
-seed;training;test;validation;model
-3;0.272569;0.369048;0.1875;neutral mental emotional IT_LF_max HAND_EDA_processed_mad >= if-else physical ECG_original_skewness ECG_original_baseline > if-else emotional emotional mental ECG_hrv_prctile75 -0.75 <= if-else IT_Original_harmmean IT_HF_baseline >= ECG_DBD HAND_EDA_Original_max >= and if-else IT_p_Total_trimmean25 0.5 -0.25 ^ / ECG_hrv_prctile75 < if-else IT_MF_HF 0 < ARM_EDA_processed_trimmean25 ARM_EDA_Filt2_trimmean25 0.25 * != 0 -1 < or and if-else 
