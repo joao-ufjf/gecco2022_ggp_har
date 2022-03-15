@@ -1,0 +1,8 @@
+Hello GP-ufjf!
+NumTree: 1
+TotalTrain : 4032
+TotalTest : 336
+TotalValidation : 112
+Criar populacao inicial
+0 0.595486
+it:1 n:1000 fit:0.46875 size:132 model:emotional neutral HAND_EDA_Filt2_min IT_HF_LF < if-else physical neutral ECG_p_HF_skewness ECG_HR_min_div_skewness < if-else 0 0.75 <= -0.5 ECG_p_total_LF_median >= or if-else physical emotional 0.25 -1 == if-else neutral emotional 0.5 0 >= if-else -0.25 ECG_original_harmmean >= -1 -0.5 != and if-else -0.75 ECG_hrv_prctile75 != -0.5 -0.5 <= and ARM_EDA_Functionals_power_Filt2prctile75 ECG_Entropyaprox >= 1 HAND_EDA_Functionals_power_Originalprctile75 < and or if-else physical emotional IT_BRV_baseline -1 != if-else physical mental ECG_amplitude_RR_skewness ARM_EDA_processed_min > if-else 0 IT_HF_LF == HAND_EDA_Functionals_power_Fil12median 0 != and if-else physical physical 0 IT_MF_prctile25 < if-else emotional physical HAND_EDA_Original_min -1 == if-else ARM_EDA_Original_mean -0.25 <= -0.25 1 <= or if-else -0.25 1 != ECG_RSAindex 0.75 < or 0.25 IT_LF_median != ECG_p_VFL_std 0.5 == and and if-else IT_LF_kurtosis ECG_p_LF_geomean(abs) ^ ARM_EDA_Functionals_power_Originalbaseline == -0.25 0.25 > -0.75 ECG_p_total_LF_harmmean != and or 0 ECG_HR_min_div_max + 1 <= or if-else 

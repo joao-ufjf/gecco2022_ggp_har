@@ -1,0 +1,8 @@
+Hello GP-ufjf!
+NumTree: 1
+TotalTrain : 4032
+TotalTest : 336
+TotalValidation : 112
+Criar populacao inicial
+0 0.552331
+it:1 n:1000 fit:0.541915 size:6 model:physical emotional ECG_RR_window_min IT_CCV_HF <= if-else 

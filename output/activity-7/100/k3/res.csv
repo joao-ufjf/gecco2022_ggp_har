@@ -1,0 +1,2 @@
+seed;training;test;validation;model
+2;0.520337;0.467262;0.357143;mental neutral IT_BRV_prctile25 _c_ - -0.5 > ECG_p_MF_mean _c_ < HAND_EDA_Functionals_power_Originalmedian _c_ >= and or if-else physical ECG_amplitude_RR_std HAND_EDA_Functionals_power_Fil12skewness / ECG_HR_min_div_kurtosis ECG_original_kurtosis * 1 ^ < if-else 

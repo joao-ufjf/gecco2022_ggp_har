@@ -1,0 +1,8 @@
+Hello GP-ufjf!
+NumTree: 1
+TotalTrain : 4032
+TotalTest : 336
+TotalValidation : 112
+Criar populacao inicial
+0 0.591022
+it:1 n:1000 fit:0.547619 size:56 model:mental mental ARM_EDA_Functionals_power_Filt2mean IT_HF_max < if-else emotional mental ARM_EDA_Filt2_prctile25 0.75 <= if-else 0.25 ECG_original_min > ECG_p_HF_prctile25 0.75 >= or if-else physical mental ECG_p_VFL_prctile75 -1 <= if-else emotional physical ECG_p_HF_std 1 == if-else -1 ECG_p_total_LF_prctile75 <= -0.25 -1 < and if-else 0.75 0.75 <= 0.5 ECG_hrv_prctile25 >= and ECG_p_LF_geomean(abs) 0.75 < 1 -0.25 < and or if-else 

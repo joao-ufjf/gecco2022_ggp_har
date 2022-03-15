@@ -1,0 +1,8 @@
+Hello GP-ufjf!
+NumTree: 1
+TotalTrain : 4032
+TotalTest : 336
+TotalValidation : 112
+Criar populacao inicial
+0 0.596478
+it:1 n:1000 fit:0.557292 size:20 model:physical mental ECG_RR_window_trimmean25 -0.25 < if-else neutral physical 0.75 HAND_EDA_processed_max < if-else HAND_EDA_Filt2_max HAND_EDA_Functionals_power_Originalmean != IT_RF_median -0.25 <= or if-else 

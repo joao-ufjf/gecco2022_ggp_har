@@ -1,0 +1,10 @@
+Hello GP-ufjf!
+NumTree: 1
+TotalTrain : 4032
+TotalTest : 336
+TotalValidation : 112
+Criar populacao inicial
+0 0.593006
+it:1 n:1000 fit:0.574653 size:20 model:physical neutral ECG_p_LF_geomean(abs) IT_HF_baseline != if-else neutral mental HAND_EDA_Functionals_power_Filt2min -0.25 <= if-else 0.75 -0.25 >= IT_LF_median 0 > and if-else 
+it:2 n:1500 fit:0.545883 size:38 model:physical emotional emotional physical -0.75 ARM_EDA_Filt2_std >= if-else mental emotional ARM_EDA_Functionals_power_Originalmin ARM_EDA_Original_mean > if-else 0.25 ARM_EDA_Functionals_power_Originalgeomean(abs) < if-else IT_Original_harmmean 0.75 >= -0.25 IT_LF_geomean(abs) <= and ARM_EDA_Filt1_mean ARM_EDA_Filt2_prctile75 == and if-else ECG_hrv_max ARM_EDA_Original_kurtosis ^ HAND_EDA_Filt1_skewness ECG_HR_min_div_kurtosis * > if-else 
+it:3 n:2000 fit:0.545883 size:38 model:physical emotional emotional physical -0.75 ARM_EDA_Filt2_std >= if-else mental emotional ARM_EDA_Functionals_power_Originalmin ARM_EDA_Original_mean > if-else 0.25 ARM_EDA_Functionals_power_Originalgeomean(abs) < if-else IT_Original_harmmean 0.75 >= -0.25 IT_LF_geomean(abs) <= and ARM_EDA_Filt1_mean ARM_EDA_Filt2_prctile75 == and if-else ECG_hrv_max ARM_EDA_Original_kurtosis ^ HAND_EDA_Filt1_skewness ECG_HR_min_div_kurtosis * > if-else 

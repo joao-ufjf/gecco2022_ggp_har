@@ -1,0 +1,9 @@
+Hello GP-ufjf!
+NumTree: 1
+TotalTrain : 4032
+TotalTest : 336
+TotalValidation : 112
+Criar populacao inicial
+0 0.591766
+it:1 n:1000 fit:0.541667 size:15 model:emotional mental physical ECG_HR_min_div_median 0 < if-else IT_PSD_baseline ECG_p_VFL_min <= 1 IT_PSD_kurtosis == and if-else 
+it:2 n:1500 fit:0.541667 size:15 model:emotional mental physical ECG_HR_min_div_median 0 < if-else IT_PSD_baseline ECG_p_VFL_min <= 1 IT_PSD_kurtosis == and if-else 

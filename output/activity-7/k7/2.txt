@@ -1,0 +1,9 @@
+Hello GP-ufjf!
+NumTree: 1
+TotalTrain : 4032
+TotalTest : 336
+TotalValidation : 112
+Criar populacao inicial
+0 0.592262
+it:1 n:1000 fit:0.56126 size:6 model:emotional physical -0.25 ECG_original_mad > if-else 
+it:2 n:1500 fit:0.56126 size:6 model:emotional physical -0.25 ECG_original_mad > if-else 

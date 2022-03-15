@@ -1,0 +1,8 @@
+Hello GP-ufjf!
+NumTree: 1
+TotalTrain : 4032
+TotalTest : 336
+TotalValidation : 112
+Criar populacao inicial
+0 0.553819
+it:1 n:1000 fit:0.52877 size:49 model:physical neutral HAND_EDA_Original_prctile25 ARM_EDA_Functionals_power_Filt2prctile75 ^ ECG_RR_window_skewness <= if-else physical -0.5 HAND_EDA_Functionals_power_Fil12skewness == 0.5 0.25 < and -1 IT_LF_min >= or if-else mental physical 1 ARM_EDA_Functionals_power_Fil12prctile25 0.75 IT_p_Total_median / + >= if-else 0.5 ECG_amplitude_RR_min * ARM_EDA_Functionals_power_Filt2mean == -0.5 -0.75 0 - > -1 IT_HF_mad * ECG_hrv_trimmean25 < and or if-else 

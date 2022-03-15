@@ -27,7 +27,7 @@
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
-				<Option parameters="98 input/activity/grammar input/activity/activity.csv input/activity/k10.dat 0 output/activity/k0/res.csv 5 output/activity/k0/98.txt" />
+				<Option parameters="98 input/activity/grammar input/activity/activity.csv input/activity/k10.dat 100 output/activity/k0/res.csv 5 output/activity/k0/98.txt" />
 				<Compiler>
 					<Add option="-O2" />
 					<Add option="-std=c++11" />

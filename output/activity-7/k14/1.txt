@@ -1,0 +1,8 @@
+Hello GP-ufjf!
+NumTree: 1
+TotalTrain : 4032
+TotalTest : 336
+TotalValidation : 112
+Criar populacao inicial
+0 0.598214
+it:1 n:1000 fit:0.598214 size:72 model:mental emotional IT_BRV_geomean(abs) 0.25 > if-else neutral mental 1 -1 != if-else ECG_p_LF_mad IT_HF_geomean(abs) * IT_LF_harmmean -0.5 ^ > if-else mental -0.25 0.5 0.5 + < if-else physical physical -0.25 ECG_hrv_harmmean / 1 == if-else mental neutral physical 0.5 ECG_p_MF_max != if-else HAND_EDA_Functionals_power_Fil12prctile25 -0.5 >= IT_LF_mean 0.25 <= and if-else ECG_PSD_prctile25 ARM_EDA_Original_std ECG_hrv_baseline * != if-else -0.25 -0.75 * HAND_EDA_Functionals_power_Fil12prctile25 >= 0.5 ECG_RR_window_prctile25 / -1 >= and ECG_HR_min_div_mean ARM_EDA_Filt2_max <= and if-else 

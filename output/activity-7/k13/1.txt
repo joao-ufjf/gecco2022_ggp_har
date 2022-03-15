@@ -1,0 +1,8 @@
+Hello GP-ufjf!
+NumTree: 1
+TotalTrain : 4032
+TotalTest : 336
+TotalValidation : 112
+Criar populacao inicial
+0 0.583581
+it:1 n:1000 fit:0.52629 size:17 model:emotional mental physical IT_HF_trimmean25 ECG_hrv_median > if-else IT_MF_skewness 0.5 * IT_Original_max 1 IT_HF_kurtosis ^ + > if-else 

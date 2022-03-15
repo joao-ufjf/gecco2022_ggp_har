@@ -1,0 +1,9 @@
+Hello GP-ufjf!
+NumTree: 1
+TotalTrain : 4032
+TotalTest : 336
+TotalValidation : 112
+Criar populacao inicial
+0 0.598958
+it:1 n:1000 fit:0.598958 size:56 model:emotional mental -0.5 HAND_EDA_Filt1_skewness > if-else neutral neutral 0.75 ECG_p_HF_prctile25 == if-else HAND_EDA_processed_max 1 == ARM_EDA_processed_prctile75 IT_CCV_LF >= or if-else physical emotional HAND_EDA_Filt2_prctile75 IT_LF_min >= if-else mental mental ECG_RR_window_max ECG_hrv_kurtosis >= if-else -0.5 0.5 <= IT_PSD_kurtosis 0.75 <= or if-else ARM_EDA_cross_neg HAND_EDA_p_samples > HAND_EDA_Functionals_power_Fil12median -1 < and ECG_HR_min_div_prctile25 IT_MF_harmmean > 0.25 0.75 <= or or if-else 
+it:2 n:1500 fit:0.553075 size:6 model:mental physical ECG_RR_window_mean ECG_p_MF_prctile75 >= if-else 

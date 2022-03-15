@@ -1,0 +1,8 @@
+Hello GP-ufjf!
+NumTree: 1
+TotalTrain : 4032
+TotalTest : 336
+TotalValidation : 112
+Criar populacao inicial
+0 0.589782
+it:1 n:1000 fit:0.589782 size:20 model:physical neutral ECG_p_LF_geomean(abs) IT_HF_baseline != if-else neutral mental ECG_p_VFL_geomean(abs) -0.25 <= if-else 0.75 -0.25 >= IT_LF_median 0 > and if-else 

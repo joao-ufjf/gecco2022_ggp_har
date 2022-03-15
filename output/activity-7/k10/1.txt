@@ -1,0 +1,8 @@
+Hello GP-ufjf!
+NumTree: 1
+TotalTrain : 4032
+TotalTest : 336
+TotalValidation : 112
+Criar populacao inicial
+0 0.590774
+it:1 n:1000 fit:0.572421 size:51 model:mental physical ECG_RR_window_trimmean25 -0.25 <= ARM_EDA_Functionals_power_Originalkurtosis IT_BRV_max == and if-else mental IT_p_Total_mean ECG_amplitude_RR_skewness IT_LF_kurtosis + -0.75 + > if-else emotional emotional mental -0.75 IT_RF_std > if-else -0.5 0 < if-else emotional -0.75 IT_PSD_kurtosis 0 - < if-else 0.75 IT_LF_Area IT_VLF_kurtosis + != ECG_HR_min_div_median -0.75 ^ 0.5 * ARM_EDA_Original_baseline > and if-else 

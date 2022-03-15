@@ -1,0 +1,8 @@
+Hello GP-ufjf!
+NumTree: 1
+TotalTrain : 4032
+TotalTest : 336
+TotalValidation : 112
+Criar populacao inicial
+0 0.593998
+it:1 n:1000 fit:0.58879 size:14 model:neutral physical IT_LF_trimmean25 0 ECG_amplitude_RR_geomean(abs) * IT_RF_std ECG_IE / + - IT_MF_skewness >= if-else 

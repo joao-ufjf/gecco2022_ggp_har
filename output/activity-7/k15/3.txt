@@ -1,0 +1,8 @@
+Hello GP-ufjf!
+NumTree: 1
+TotalTrain : 4032
+TotalTest : 336
+TotalValidation : 112
+Criar populacao inicial
+0 0.561756
+it:1 n:1000 fit:0.561756 size:144 model:emotional physical ECG_RR_window_harmmean -1 >= if-else physical physical HAND_EDA_Filt1_mean IT_LF_geomean(abs) < if-else ECG_p_HF_baseline -1 < -0.25 1 != or if-else neutral emotional IT_LF_baseline ECG_amplitude_RR_prctile25 > if-else physical emotional 0.25 1 == if-else -0.75 -0.25 != IT_RF_kurtosis HAND_EDA_Functionals_power_Fil12median <= and if-else -0.5 1 <= 0 ECG_RR_window_kurtosis <= and 0.75 ECG_CCV_HF > -0.75 -0.25 < or or if-else emotional emotional 0.75 ECG_RR_window_mad > if-else physical mental 0.25 0 >= if-else -1 HAND_EDA_Filt2_baseline >= 0.75 ECG_original_baseline != and if-else mental emotional 0 -0.5 <= if-else mental neutral -0.5 ECG_Logstd < if-else IT_HF_trimmean25 -0.25 != IT_p_Total_mean -0.5 < or if-else ECG_RR_window_std ARM_EDA_Functionals_power_Fil12skewness != HAND_EDA_Functionals_power_Originalprctile75 ARM_EDA_Filt2_geomean(abs) == and ECG_original_prctile75 ARM_EDA_Functionals_power_Originalstd <= -0.25 0.5 < or and if-else ECG_RR_window_prctile75 IT_Original_mean == 1 -0.75 >= or ECG_p_VFL_kurtosis 0.25 > -1 -0.25 <= or or IT_RF_prctile25 -0.25 <= -0.5 1 == or 0 IT_LF_skewness > ECG_p_total_LF_kurtosis ECG_p_VFL_baseline >= or or or if-else 
