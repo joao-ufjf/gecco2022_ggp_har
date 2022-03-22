@@ -1,0 +1,17 @@
+Hello GP-ufjf!
+NumTree: 1
+TotalTrain : 4032
+TotalTest : 336
+TotalValidation : 112
+Criar populacao inicial
+0 0.593254
+it:1 n:1000 fit:0.548363 size:15 model:neutral mental physical ECG_HR_min_div_median 0 < if-else IT_PSD_baseline ECG_p_VFL_min <= 1 IT_PSD_kurtosis == and if-else 
+it:2 n:1500 fit:0.548363 size:15 model:neutral mental physical ECG_HR_min_div_median 0 < if-else IT_PSD_baseline ECG_p_VFL_min <= 1 IT_PSD_kurtosis == and if-else 
+it:3 n:2000 fit:0.548363 size:15 model:neutral mental physical ECG_HR_min_div_median 0 < if-else IT_PSD_baseline ECG_p_VFL_min <= 1 IT_PSD_kurtosis == and if-else 
+it:4 n:2500 fit:0.488591 size:35 model:neutral physical emotional ARM_EDA_Functionals_power_Originalmedian ECG_PSD_skewness >= if-else emotional mental -0.25 IT_HF_median > if-else neutral emotional IT_VLF_kurtosis ARM_EDA_Functionals_power_Fil12trimmean25 < if-else IT_p_Total_prctile75 ECG_hrv_skewness == if-else 0.25 ECG_HR_min_div_kurtosis + HAND_EDA_Filt1_mad * -1 != if-else -0.75 IT_PSD_kurtosis >= if-else 
+it:5 n:3000 fit:0.488591 size:35 model:neutral physical emotional ARM_EDA_Functionals_power_Originalmedian ECG_PSD_skewness >= if-else emotional mental -0.25 IT_HF_median > if-else neutral emotional IT_VLF_kurtosis ARM_EDA_Functionals_power_Fil12trimmean25 < if-else IT_p_Total_prctile75 ECG_hrv_skewness == if-else 0.25 ECG_HR_min_div_kurtosis + HAND_EDA_Filt1_mad * -1 != if-else -0.75 IT_PSD_kurtosis >= if-else 
+it:6 n:3500 fit:0.488591 size:35 model:neutral physical emotional ARM_EDA_Functionals_power_Originalmedian ECG_PSD_skewness >= if-else emotional mental -0.25 IT_HF_median > if-else neutral emotional IT_VLF_kurtosis ARM_EDA_Functionals_power_Fil12trimmean25 < if-else IT_p_Total_prctile75 ECG_hrv_skewness == if-else 0.25 ECG_HR_min_div_kurtosis + HAND_EDA_Filt1_mad * -1 != if-else -0.75 IT_PSD_kurtosis >= if-else 
+it:7 n:4000 fit:0.488591 size:35 model:neutral physical emotional ARM_EDA_Functionals_power_Originalmedian ECG_PSD_skewness >= if-else emotional mental -0.25 IT_HF_median > if-else neutral emotional IT_VLF_kurtosis ARM_EDA_Functionals_power_Fil12trimmean25 < if-else IT_p_Total_prctile75 ECG_hrv_skewness == if-else 0.25 ECG_HR_min_div_kurtosis + HAND_EDA_Filt1_mad * -1 != if-else -0.75 IT_PSD_kurtosis >= if-else 
+it:8 n:4500 fit:0.468998 size:35 model:neutral physical emotional ECG_p_LF_mean ECG_PSD_skewness >= if-else emotional mental -0.25 IT_HF_median > if-else neutral emotional IT_VLF_kurtosis ARM_EDA_Functionals_power_Fil12trimmean25 < if-else -0.5 0.5 >= if-else 0.25 ECG_HR_min_div_kurtosis + HAND_EDA_Filt1_mad ^ -1 != if-else -0.75 IT_PSD_kurtosis >= if-else 
+it:9 n:5000 fit:0.468998 size:35 model:neutral physical emotional ECG_p_LF_mean ECG_PSD_skewness >= if-else emotional mental -0.25 IT_HF_median > if-else neutral emotional IT_VLF_kurtosis ARM_EDA_Functionals_power_Fil12trimmean25 < if-else -0.5 0.5 >= if-else 0.25 ECG_HR_min_div_kurtosis + HAND_EDA_Filt1_mad ^ -1 != if-else -0.75 IT_PSD_kurtosis >= if-else 
+it:10 n:5500 fit:0.468998 size:35 model:neutral physical emotional ECG_p_LF_mean ECG_PSD_skewness >= if-else emotional mental -0.25 IT_HF_median > if-else neutral emotional IT_VLF_kurtosis ARM_EDA_Functionals_power_Fil12trimmean25 < if-else -0.5 0.5 >= if-else 0.25 ECG_HR_min_div_kurtosis + HAND_EDA_Filt1_mad ^ -1 != if-else -0.75 IT_PSD_kurtosis >= if-else 
